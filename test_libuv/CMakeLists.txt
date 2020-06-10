@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 2.6)
+add_definitions("-Wall -g -fdiagnostics-color=auto -std=c++11")
+include_directories(./inc ./src)
+link_directories(${CMAKE_SOURCE_DIR}/lib)
+add_subdirectory(./src)
+
+add_executable(cli cli.cpp)
+add_executable(ser ser.cpp)
+target_link_libraries(cli src uv)
+target_link_libraries(ser src uv)
