@@ -14,6 +14,7 @@
 #include "revert_list.h"
 #include "kmp.h"
 #include "leetcode10.h"
+#include "sort.h"
 
 int main(int argc,char* argv[]){
 	Coin();
@@ -32,6 +33,7 @@ int main(int argc,char* argv[]){
 	TestListRevert();
 	TestKMP();
 	TestMatch();
+	TestS();
 	
 }
 
