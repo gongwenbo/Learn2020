@@ -1,0 +1,1 @@
+src 仅仅是redis的源码，需要在IEDA建立redis项目，在导入src文件即可编译
